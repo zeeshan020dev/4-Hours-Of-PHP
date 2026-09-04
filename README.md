@@ -1429,38 +1429,6 @@ mysqli_close()
 
 ---
 
-# Learning Flow
-
-```text
-PHP Basics
-    ↓
-Variables & Operators
-    ↓
-Forms
-    ↓
-Conditions
-    ↓
-Loops
-    ↓
-Arrays
-    ↓
-Functions
-    ↓
-Input Handling
-    ↓
-Cookies & Sessions
-    ↓
-Server Variables
-    ↓
-Password Hashing
-    ↓
-MySQL
-    ↓
-Database Operations
-```
-
----
-
 # Repository Purpose
 
 This repository can be used as:
@@ -1510,20 +1478,23 @@ Practice each concept independently before combining everything into a complete 
 
 ---
 
-## Course Complete
+## Author ✍️
 
-```text
-PHP Fundamentals      ✓
-Forms                 ✓
-Control Flow          ✓
-Arrays                ✓
-Functions             ✓
-Input Handling        ✓
-Cookies               ✓
-Sessions              ✓
-Security Basics       ✓
-MySQL                 ✓
-Database Operations   ✓
-```
+Click the box below to visit the author's GitHub profile and explore more projects, open-source work, and contributions.
 
-Keep building.
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="220px">
+        <a href="https://github.com/zeeshan020dev">
+          <img src="https://github.com/zeeshan020dev.png?size=100" width="100px;" alt="Muhammad Zeeshan Islam"/>
+          <br />
+          <sub><b>Muhammad&nbsp;Zeeshan&nbsp;Islam</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/zeeshan020dev" title="GitHub Profile">💻</a>
+        <a href="https://github.com/zeeshan020dev" title="Documentation">📖</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
