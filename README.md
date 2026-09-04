@@ -94,6 +94,7 @@ Boolean values are commonly used inside:
 
 Use the escape sequence `\` when you need to display a dollar sign inside a message involving variables.
 
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/02.%20Variables/2.%20Variables.php)
 ---
 
 # 3. Operators in PHP
@@ -127,6 +128,7 @@ PHP evaluates operators in the following order:
 + -
 ```
 
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/03.%20Arithmetic/3.%20Arithmetic.php)
 ---
 
 # 4. GET & POST
@@ -165,6 +167,7 @@ With POST:
 - Requests are not cached.
 - POST is better suited for submitting credentials.
 
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/04.%20Get%20%26%20Post%20Method/4.%20Get%20%26%20Post%20Method.php)
 ---
 
 # 5. Math-Related Functions
@@ -185,6 +188,7 @@ PHP provides several built-in mathematical functions.
 | `rand()` | Returns a random value |
 | `rand(min, max)` | Returns a random value between the given range |
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 6. If Statements
@@ -198,6 +202,7 @@ If the condition is false, the associated code is not executed.
 - The order of `if` and `else` conditions matters.
 - Conditional statements can work with Boolean variables.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 7. Logical Operators
@@ -219,6 +224,7 @@ true  → false
 false → true
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 8. Switch Statements
@@ -230,6 +236,7 @@ Benefits mentioned in the notes:
 - Requires less code
 - Can make multiple-condition logic easier to manage
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 9. For Loop
@@ -238,6 +245,7 @@ A `for` loop repeats a block of code a specified number of times.
 
 It is useful when you already know approximately how many times the code should execute.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 10. While Loop
@@ -248,6 +256,7 @@ Its purpose is similar to a `for` loop, but its syntax and control structure are
 
 The syntax is similar to loops commonly used in languages such as C++.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 11. isset() Function
@@ -315,6 +324,7 @@ Think of `isset()` as a:
 
 > Presence + non-null check
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 12. Arrays
@@ -381,6 +391,7 @@ Returns the number of elements inside an array.
 count($array);
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 13. Associative Arrays
@@ -473,6 +484,7 @@ Returns the number of elements.
 count($array);
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 14. isset() and empty()
@@ -509,6 +521,7 @@ Usage:
 empty($variable);
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 15. Radio Buttons
@@ -517,6 +530,7 @@ When multiple radio buttons belong to the same group, their `name` attribute sho
 
 This allows the user to select only one option from that group.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 16. Checkboxes
@@ -535,6 +549,7 @@ Example structure:
 <input type="checkbox" name="items[]" value="">
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 17. Functions
@@ -551,6 +566,7 @@ Example:
 add();
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 18. String Functions
@@ -615,6 +631,7 @@ implode("Separator", $stringArray);
 
 This joins array elements into a normal string.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 19. Sanitize & Validate
@@ -681,6 +698,7 @@ FILTER_VALIDATE_EMAIL
 
 Used to validate an email format.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 20. Include Function
@@ -707,6 +725,7 @@ index.php
 - Changes only need to be made in one location.
 - Duplicate code can be reduced.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 21. Cookies
@@ -790,6 +809,7 @@ $key => $value
 
 using a `foreach` loop.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 22. Sessions
@@ -848,6 +868,7 @@ session_destroy();
 
 This can be used when a user logs out.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 23. Server Variables
@@ -905,6 +926,7 @@ By default, a page request is GET.
 
 After a form configured with the POST method is submitted, the request method becomes POST.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 24. Hashing
@@ -967,6 +989,7 @@ false
 
 depending on whether the password matches.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 25. Connecting PHP to MySQL
@@ -1026,6 +1049,7 @@ include("Connection Filename.php");
 
 This avoids rewriting the connection logic.
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 26. Creating a Table Using phpMyAdmin
@@ -1357,6 +1381,7 @@ The selected row will be removed from the table.
 | **Insert**          | Adds a new record manually                          |
 | **Delete**          | Removes an existing record                          |
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 27. Insert Data into MySQL Using PHP
@@ -1404,6 +1429,7 @@ $connection → Database connection
 $query      → SQL query
 ```
 
+> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 28. Retrieve Data from MySQL
