@@ -1,4 +1,4 @@
-# PHP 4-Hour Course
+# 4-Hour PHP Learning Guide
 
 A structured beginner-friendly collection of PHP notes covering the fundamentals of PHP, forms, control flow, arrays, functions, sessions, security concepts, and MySQL database integration.
 
