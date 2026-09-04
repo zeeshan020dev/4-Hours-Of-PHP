@@ -6,35 +6,6 @@ This repository is designed as a quick learning and revision resource for anyone
 
 ---
 
-## Course Overview
-
-This course covers:
-
-- PHP syntax and fundamentals
-- Variables and operators
-- GET and POST requests
-- Mathematical functions
-- Conditional statements
-- Logical operators
-- Loops
-- Arrays
-- Associative arrays
-- Form handling
-- Functions
-- String manipulation
-- Input sanitization and validation
-- File inclusion
-- Cookies
-- Sessions
-- Server variables
-- Password hashing
-- MySQL connectivity
-- Database creation
-- Data insertion
-- Data retrieval
-
----
-
 # Table of Contents
 
 1. Introduction to PHP
