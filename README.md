@@ -1,6 +1,6 @@
 # 4-Hour PHP Learning Guide
 
-A structured beginner-friendly collection of PHP notes covering the fundamentals of PHP, forms, control flow, arrays, functions, sessions, security concepts, and MySQL database integration.
+> A beginner-friendly PHP learning guide with practical examples covering PHP fundamentals, forms, arrays, functions, sessions, password hashing, MySQL, MySQLi, phpMyAdmin, and database operations.
 
 This repository is designed as a quick learning and revision resource for anyone getting started with PHP.
 
