@@ -8,34 +8,34 @@ This repository is designed as a quick learning and revision resource for anyone
 
 # Table of Contents
 
-1. Introduction to PHP
-2. Variables
-3. Operators
-4. GET & POST
-5. Math Functions
-6. If Statements
-7. Logical Operators
-8. Switch Statements
-9. For Loops
-10. While Loops
-11. isset()
-12. Arrays
-13. Associative Arrays
-14. isset() and empty()
-15. Radio Buttons
-16. Checkboxes
-17. Functions
-18. String Functions
-19. Sanitize & Validate
-20. Include Function
-21. Cookies
-22. Sessions
-23. Server Variables
-24. Hashing
-25. Connecting PHP with MySQL
-26. Creating Tables with phpMyAdmin
-27. Inserting Data
-28. Retrieving Data
+1. [Introduction to PHP](#1-introduction-to-php)
+2. [Variables](#2-variables-in-php)
+3. [Operators](#3-operators-in-php)
+4. [GET & POST](#4-get--post)
+5. [Math Functions](#5-math-related-functions)
+6. [If Statements](#6-if-statements)
+7. [Logical Operators](#7-logical-operators)
+8. [Switch Statements](#8-switch-statements)
+9. [For Loops](#9-for-loop)
+10. [While Loops](#10-while-loop)
+11. [`isset()`](#11-isset-function)
+12. [Arrays](#12-arrays)
+13. [Associative Arrays](#13-associative-arrays)
+14. [`isset()` and `empty()`](#14-isset-and-empty)
+15. [Radio Buttons](#15-radio-buttons)
+16. [Checkboxes](#16-checkboxes)
+17. [Functions](#17-functions)
+18. [String Functions](#18-string-functions)
+19. [Sanitize & Validate](#19-sanitize--validate)
+20. [Include Function](#20-include-function)
+21. [Cookies](#21-cookies)
+22. [Sessions](#22-sessions)
+23. [Server Variables](#23-server-variables)
+24. [Hashing](#24-hashing)
+25. [Connecting PHP to MySQL](#25-connecting-php-to-mysql)
+26. [Creating a Table Using phpMyAdmin](#26-creating-a-table-using-phpmyadmin)
+27. [Insert Data into MySQL Using PHP](#27-insert-data-into-mysql-using-php)
+28. [Retrieve Data from MySQL](#28-retrieve-data-from-mysql)
 
 ---
 
