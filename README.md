@@ -64,7 +64,7 @@ Basic PHP syntax:
   - PHP
 - In supported editors, typing `!` and pressing `Tab` can generate HTML boilerplate code.
 
-> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/01.%20Index)
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/01.%20Index/1.%20index.php)
 ---
 
 # 2. Variables in PHP
