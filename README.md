@@ -1029,125 +1029,332 @@ This avoids rewriting the connection logic.
 
 # 26. Creating a Table Using phpMyAdmin
 
-Basic process:
+phpMyAdmin provides a graphical interface for creating and managing MySQL databases and tables.
+
+Follow these steps to create a table, configure its columns, insert data manually, and manage records.
+
+---
+
+## Step 1: Open phpMyAdmin
+
+1. Start **Apache** and **MySQL** from the XAMPP Control Panel.
+2. Open your browser.
+3. Navigate to:
 
 ```text
-Open phpMyAdmin
-        ↓
+http://localhost/phpmyadmin/
+````
+
+4. phpMyAdmin will open in your browser.
+
+---
+
+## Step 2: Create or Select a Database
+
+1. Click **Databases** from the top navigation bar.
+2. If you already have a database, select it.
+3. If you do not have one:
+
+   * Enter a database name.
+   * Click **Create**.
+   * Select the newly created database.
+
+```text
+phpMyAdmin
+    ↓
 Databases
-        ↓
+    ↓
 Create / Select Database
-        ↓
-Enter Table Name
-        ↓
-Choose Number of Columns
-        ↓
-Create
-        ↓
-Configure Columns
-        ↓
-Save
 ```
 
 ---
 
-## Column Configuration
+## Step 3: Create a New Table
 
-### Name
+After selecting the database:
 
-Defines the name of each column.
+1. Enter the **table name**.
+2. Specify the **number of columns** required.
+3. Click **Create**.
 
-### Primary Key
-
-IDs can be configured as the primary index depending on the database design.
-
-### A_I
+Example:
 
 ```text
-A_I = Auto Increment
+Table Name: users
+Number of Columns: 5
 ```
 
-### VARCHAR
+---
 
-Used for storing character or string data.
+## Step 4: Configure Table Columns
+
+phpMyAdmin will display a form where you can define each column.
+
+In the **Name** field, enter the name of each column.
+
+Example structure:
+
+| Column       | Type       | Length | Index     | A_I |
+| ------------ | ---------- | ------ | --------- | --- |
+| `id`         | `INT`      | —      | `PRIMARY` | ✅   |
+| `username`   | `VARCHAR`  | —      | —         | —   |
+| `password`   | `CHAR`     | `255`  | —         | —   |
+| `email`      | `VARCHAR`  | —      | —         | —   |
+| `created_at` | `DATETIME` | —      | —         | —   |
+
+---
+
+## Step 5: Configure the ID Column
+
+For an ID column:
+
+1. Set the column name, for example:
 
 ```text
-VARCHAR
+id
 ```
 
-### INT
-
-Used for numerical data.
+2. Set its type to:
 
 ```text
 INT
 ```
 
+3. Set the **Index** to:
+
+```text
+PRIMARY
+```
+
+4. Enable:
+
+```text
+A_I
+```
+
+`A_I` stands for **Auto Increment**.
+
+This automatically increases the ID whenever a new row is inserted.
+
+Example:
+
+```text
+1
+2
+3
+4
+5
+...
+```
+
+---
+
+## Step 6: Select Appropriate Data Types
+
+Different types of data require different MySQL data types.
+
+### VARCHAR
+
+`VARCHAR` is used for storing characters or strings.
+
+Examples:
+
+```text
+username
+email
+name
+address
+```
+
+Example:
+
+```text
+VARCHAR
+```
+
+---
+
+### INT
+
+`INT` is used for storing integer numbers.
+
+Examples:
+
+```text
+id
+age
+quantity
+```
+
+Example:
+
+```text
+INT
+```
+
+---
+
 ### CHAR
 
-The original notes use `CHAR` for storing password-related data with a length of `255`.
+In this project, `CHAR` is used for storing the password after applying a hashing algorithm.
+
+Example:
 
 ```text
 CHAR(255)
 ```
 
+The length is set to:
+
+```text
+255
+```
+
+---
+
 ### DATETIME
 
-Used for storing date and time values.
+`DATETIME` is used for storing both date and time.
+
+Example:
 
 ```text
 DATETIME
 ```
 
-### CURRENT_TIMESTAMP
-
-Can be used as a default value.
+For the default value, use:
 
 ```text
 CURRENT_TIMESTAMP
 ```
 
----
-
-## Preview SQL
-
-The **Preview SQL** option can be used to inspect the SQL query before creating or changing the table.
+This can automatically store the current date and time when a new row is created.
 
 ---
 
-## Browsing the Table
+## Step 7: Preview the SQL Query
 
-After creating the table:
+Before creating the table:
 
-```text
-Save
- ↓
-Browse
+1. Click **Preview SQL**.
+2. phpMyAdmin will display the SQL query that will be executed.
+
+This allows you to review the SQL statement before applying it.
+
+Example structure:
+
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255),
+    password CHAR(255),
+    email VARCHAR(255),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
 ```
 
-Initially, the table may contain column definitions but no rows.
+---
+
+## Step 8: Save the Table
+
+After configuring all columns:
+
+1. Review your settings.
+2. Click **Save**.
+3. phpMyAdmin will create the table.
+
+The table will now appear under your selected database.
 
 ---
 
-## Manually Inserting Data
+## Step 9: View the Table
+
+To view the newly created table:
+
+1. Select the table.
+2. Click **Browse**.
+
+Initially, you will see the column names, but there may be no rows because no data has been inserted yet.
+
+Example:
 
 ```text
-Insert
-   ↓
-Enter Data
-   ↓
-Go
-   ↓
-Browse
-```
+users
 
-The inserted row should then appear in the table.
+id | username | password | email | created_at
+------------------------------------------------
+```
 
 ---
 
-## Deleting Data
+## Step 10: Insert Data Manually
 
-Select the relevant delete option for the row and confirm the deletion.
+To manually add a row:
+
+1. Select your table.
+2. Click **Insert**.
+3. Enter values for the required columns.
+
+Example:
+
+```text
+username: Zeeshan
+password: example_password
+email: zeeshan@example.com
+```
+
+4. Click **Go**.
+
+phpMyAdmin will execute the insertion query.
+
+---
+
+## Step 11: View Inserted Data
+
+After inserting the data:
+
+1. Click **Browse**.
+2. The newly inserted row will now appear inside the table.
+
+Example:
+
+```text
+id | username | password         | email                | created_at
+---------------------------------------------------------------------------
+1  | Zeeshan  | example_password | zeeshan@example.com  | ...
+```
+
+---
+
+## Step 12: Delete a Row
+
+To delete a record:
+
+1. Open the table.
+2. Click **Browse**.
+3. Locate the row you want to remove.
+4. Click **Delete**.
+5. Click **OK** to confirm.
+
+The selected row will be removed from the table.
+
+---
+
+## Quick Reference
+
+| Setting             | Purpose                                             |
+| ------------------- | --------------------------------------------------- |
+| `PRIMARY`           | Sets a column as the primary key                    |
+| `A_I`               | Enables Auto Increment                              |
+| `VARCHAR`           | Stores strings or character data                    |
+| `INT`               | Stores integer numbers                              |
+| `CHAR`              | Stores fixed-length character data                  |
+| `DATETIME`          | Stores date and time                                |
+| `CURRENT_TIMESTAMP` | Uses the current date and time as the default value |
+| **Preview SQL**     | Displays the SQL query before execution             |
+| **Browse**          | Displays records stored in the table                |
+| **Insert**          | Adds a new record manually                          |
+| **Delete**          | Removes an existing record                          |
 
 ---
 
