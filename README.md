@@ -188,7 +188,9 @@ PHP provides several built-in mathematical functions.
 | `rand()` | Returns a random value |
 | `rand(min, max)` | Returns a random value between the given range |
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/05.%20Math%20Functions/5.%20Math%20Functions.php)
+
+> 💻 **Click Here to See the Code of Practice:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/06.%20Excercise%20of%20Math%20Functions/6.%20Excercise%20of%20Math%20Functions.php)
 ---
 
 # 6. If Statements
@@ -202,7 +204,7 @@ If the condition is false, the associated code is not executed.
 - The order of `if` and `else` conditions matters.
 - Conditional statements can work with Boolean variables.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/07.%20If%20Statements/7.%20If%20Statements.php)
 ---
 
 # 7. Logical Operators
@@ -224,7 +226,7 @@ true  → false
 false → true
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/08.%20Logical%20Operators/8.%20Logical%20Operators.php)
 ---
 
 # 8. Switch Statements
@@ -236,7 +238,7 @@ Benefits mentioned in the notes:
 - Requires less code
 - Can make multiple-condition logic easier to manage
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/09.%20Switch%20Statement/9.%20Switch%20Statement.php)
 ---
 
 # 9. For Loop
@@ -245,7 +247,7 @@ A `for` loop repeats a block of code a specified number of times.
 
 It is useful when you already know approximately how many times the code should execute.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/10.%20For%20Loop/10.%20For%20Loop.php)
 ---
 
 # 10. While Loop
@@ -256,7 +258,7 @@ Its purpose is similar to a `for` loop, but its syntax and control structure are
 
 The syntax is similar to loops commonly used in languages such as C++.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/11.%20While%20Loop/11.%20While%20Loop.php)
 ---
 
 # 11. isset() Function
@@ -324,7 +326,6 @@ Think of `isset()` as a:
 
 > Presence + non-null check
 
-> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 12. Arrays
@@ -391,7 +392,7 @@ Returns the number of elements inside an array.
 count($array);
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/12.%20Arrays/12.%20Arrays.php)
 ---
 
 # 13. Associative Arrays
@@ -484,7 +485,8 @@ Returns the number of elements.
 count($array);
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/13.%20Associative%20Array/13.%20Associative%20Array.php)
+> 💻 **Click Here to See the Practice:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/14.%20Associative%20Array%20Practice/14.%20Associative%20Array%20Practice.php)
 ---
 
 # 14. isset() and empty()
@@ -521,7 +523,8 @@ Usage:
 empty($variable);
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/15.%20isset()%20%26%20empty()/15.%20isset()%20%26%20empty().php)
+> 💻 **Click Here to See the Code of Login Form:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/16.%20Login%20Form%20using%20isset%20%26%20empty/16.%20Login%20Form%20using%20isset%20%26%20empty.php)
 ---
 
 # 15. Radio Buttons
@@ -530,7 +533,7 @@ When multiple radio buttons belong to the same group, their `name` attribute sho
 
 This allows the user to select only one option from that group.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/17.%20Radio%20Buttons/17.%20Radio%20Buttons.php)
 ---
 
 # 16. Checkboxes
@@ -549,7 +552,7 @@ Example structure:
 <input type="checkbox" name="items[]" value="">
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/18.%20Checkboxes/18.%20Checkboxes.php)
 ---
 
 # 17. Functions
@@ -566,7 +569,7 @@ Example:
 add();
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/19.%20Functions/19.%20Functions.php)
 ---
 
 # 18. String Functions
@@ -631,7 +634,7 @@ implode("Separator", $stringArray);
 
 This joins array elements into a normal string.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/20.%20String%20Functions/20.%20String%20Functions.php)
 ---
 
 # 19. Sanitize & Validate
@@ -698,7 +701,7 @@ FILTER_VALIDATE_EMAIL
 
 Used to validate an email format.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/21.%20Sanitize%20%26%20Validate/21.%20Sanitize%20%26%20Validate.php)
 ---
 
 # 20. Include Function
@@ -725,7 +728,7 @@ index.php
 - Changes only need to be made in one location.
 - Duplicate code can be reduced.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/22.%20Include%20Function)
 ---
 
 # 21. Cookies
@@ -809,7 +812,7 @@ $key => $value
 
 using a `foreach` loop.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/23.%20Cookies/23.%20Cookies.php)
 ---
 
 # 22. Sessions
@@ -868,7 +871,7 @@ session_destroy();
 
 This can be used when a user logs out.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/24.%20Sessions)
 ---
 
 # 23. Server Variables
@@ -926,7 +929,7 @@ By default, a page request is GET.
 
 After a form configured with the POST method is submitted, the request method becomes POST.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/25.%20Server/25.%20Server.php)
 ---
 
 # 24. Hashing
@@ -989,7 +992,7 @@ false
 
 depending on whether the password matches.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/blob/main/26.%20Hashing/26.%20Hashing.php)
 ---
 
 # 25. Connecting PHP to MySQL
@@ -1049,7 +1052,7 @@ include("Connection Filename.php");
 
 This avoids rewriting the connection logic.
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/27.%20Connecting%20Database)
 ---
 
 # 26. Creating a Table Using phpMyAdmin
@@ -1381,7 +1384,6 @@ The selected row will be removed from the table.
 | **Insert**          | Adds a new record manually                          |
 | **Delete**          | Removes an existing record                          |
 
-> 💻 **Click Here to See the Code:** [View Code]()
 ---
 
 # 27. Insert Data into MySQL Using PHP
@@ -1429,7 +1431,7 @@ $connection → Database connection
 $query      → SQL query
 ```
 
-> 💻 **Click Here to See the Code:** [View Code]()
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/28.%20Insert%20Data)
 ---
 
 # 28. Retrieve Data from MySQL
@@ -1505,6 +1507,8 @@ mysqli_fetch_assoc()
     ↓
 Display each row
 ```
+
+> 💻 **Click Here to See the Code:** [View Code](https://github.com/zeeshan020dev/4-Hours-Of-PHP/tree/main/29.%20Retrieve%20Data)
 
 ---
 
