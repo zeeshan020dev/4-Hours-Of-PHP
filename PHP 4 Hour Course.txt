@@ -1,0 +1,313 @@
+Introduction:-
+
+<?php
+
+(Body of code)
+
+?>
+
+-> echo is used to display message on the screen.
+-> to add line break, use <br> to make a next line.
+-> // is used to add a single line comment.
+-> /* */ is used to add multiline comment.
+-> php files can also contain html, css, javascript & php code.
+-> To generate some boiler plate code, simply type ! then press tab to add HTML Boiler plate code.
+
+Variables in PHP:
+
+-> A reusable container that holds data string, integer, float, boolean
+-> In boolean, if it is true, the output will be displayed as 1.
+               if it is false, nothing will be displayed on the screen.
+   They are mainly used in if else statement or loops.
+-> Use escape sequence \ to display the dollar sign in the message with the variable.
+
+Operators in PHP:
+
+-> Arithmetic Operators: +, -, *, / ** %
+-> Increment/Decrement Operators: ++, --
+-> Operator Precedence:
+   ()
+   **
+   * / %
+   + -
+
+%_GET & %_POST: Special variables used to collect data from an HTML form.
+                Data is sent to the file in the action attribute of <form>
+                <form action = "some_file.php" method = "get">
+
+
+$_GET = Data is appended to the URL
+        Not Secure
+        char limit
+        Bookmark is possible with values
+        GET request can be cached
+        Better for a search page
+
+$_POST = Data is packaged inside the body of the HTTP request
+         More Secure
+         No Data Limit
+         Cannot bookmark
+         GET requests are not cached
+         Better for submitting credentials
+
+Math related Functions in PHP:
+
+-> abs($x): returns the absolute value of variable $x.
+-> round($x): returns the rounded off value of variable $x.
+-> floor($x): returns the rounded down value of variable $x.
+-> ceil($x): returns the rounded up value of variable $x.
+-> pow($x, $y): returns $x to the power of $y.
+-> sqrt($x): returns the square root of $x.
+-> max($x, $y, $z): returns the maximum value of x, y & z.
+-> min($x, $y, $z): returns the minimum value of x, y & z.
+-> pi(); returns the value of pi.
+-> rand(): returns any random value.
+-> rand(min, max): returns any random value between min & max.
+
+if statement in PHP:
+
+-> if some condition is true, we can do something
+   if condition is false, don't do it.
+-> Order of if-else conditions do matters in the flow of execution.
+-> It can also work with boolean variables.
+
+Logical Operators in PHP:
+
+-> They are used to combine conditional statements.
+-> There are three types of operators:
+1. AND = && True if both conditions are true.
+2. OR = || True if at least condition is true.
+3. NOT = ! True if false. False if true.
+
+switch statement in PHP:
+
+-> Replacement to using many elseif statements
+   It is More efficient & take less code to write.
+
+for Loop in PHP:
+
+-> It repeat some code to a certain number of times.
+
+while Loop in PHP:
+
+-> Working is same like for loop just syntax is different.
+   The syntax is same as we have done in C++ for while & for loops both
+
+isset function in PHP:
+
+-> isset($var) returns true if the variable $var has been declared and its value is not NULL. Otherwise it returns false. 
+
+-> If you give isset() multiple variables (e.g. isset($a, $b, $c)), it returns true only if all of them exist and are not null. 
+
+-> It also works when you check array elements, e.g. isset($_POST["stop"]) will return true only if the array $_POST has a key "stop" and that value is not null. 
+
+-> Note: isset() does not check whether the variable’s value is “empty” or “falsey” like 0, "", or false. Those values are considered “set” by isset(), because they are not NULL. 
+Zero To Mastery
+
+Thus, think of isset() as a presence-and-non-null check, not a content/emptiness check.
+
+Arrays in PHP:
+
+-> A variable which can hold more than one value at a time.
+-> It is declared by using the built-in function of array() & defined by assigning the values inside in it.
+-> There is also an array_push() function that is used to add an element at the end of the array.
+   You can also add one or more elements at the end of the array by using $array_push()
+-> array_pop($array): used to remove the last element from the array.
+-> array_shift($array): used to remove the first element of the array.
+-> array_reverse($array): used to reverse the order of an array. You must have to store it in a variable then traverse that variable using foreach loop to display results.
+-> count($array): used to count the number of element in the array.
+
+Associative array in PHP:
+
+-> An array made of key=>value pairs like countries=>capitals, id=>username, item=>price
+-> array_pop($array): used to remove the last element of an associative array.
+-> array_shift($array): used to remove the first element of an associative array.
+-> array_keys($array): used to display the keys of an associative array. Store it in a variable then traverse that variable using foreach loop.
+-> array_values($array): used to display the values of an associative array. Store it in a variable then traverse that variable using foreach loop.
+-> array_flip($array): used to swap the key with value or value with key.
+-> array_reverse($array): used to change the order of indexes of an associative array.
+-> count($array): used to count the number of elements in an array.
+
+isset() and empty() Functions in PHP:
+
+-> isset(): Returns TRUE if a variable is declared and not null.
+-> empty(): Returns TRUE if a variable is not declared, false, null, ""
+
+Radio Buttons in PHP:
+
+-> Name must be same for the radio button to let the user choose one option only.
+
+Check boxes in PHP:
+
+-> Syntax: <input type = "checkbox" name = " " value = ""> (text to be displayed on screen).
+-> If you wanna perform opertions with array, assign the same name then assign [] at the end to all tags of checkbox.
+
+Functions in PHP:
+
+-> Write some code once, reuse it when you need it.
+-> type () after function name to invoke.
+-> Example: add();
+
+String functions in PHP:
+
+-> strtolower($string): used to make all letters in lower case of $string.
+-> strtoupper($string): used to make all letters in upper case of $string.
+-> trim($string): used to remove all spaces before & after the $string. 
+-> str_pad($string): used to pad the string to certain amount of character we assign.
+-> str_replace("-", "/", $string): used to replace all "-" with "/" containing inside the $string.
+-> strrev($string): used to reverse the $string.
+-> str_shuffle($string): used to reverse the $string.
+-> strcmp($string1, $string2): used to compare the $string1 with $string2. If both are same, it returns zero. If both are different, it returns either 1 or -1.
+-> strlen($string): used to count the characters in the $string.
+-> strpos($string, " "): used to find the index number of given argument.
+-> substr($string, start index, end index): used to create a new string from $string's starting index to ending index.
+-> explode(" ", $string): used to convert the $string into an array by separating them with " ".
+-> implode("Separator", $stringArray): used to convert the string array to normal variable.
+
+Sanitize & Validate in PHP:
+
+-> filter_input(method, name of input, filter type): used to apply the filter on input.
+
+.  Sanitize types:
+
+-> FILTER_SANITIZE_SPECIAL_CHARS is used to filter out special characters.
+-> FILTER_SANITIZE_NUMBER_INT is used to filter out numbers.
+-> FILTER_SANITIZE_EMAIL is used to filter out emails.
+
+. Validate: It returns the variable false if the input is not valid.
+
+-> FILTER_VALIDATE_INT: is used to validate the integer numbers.
+-> FILTER_VALIDATE_EMAIL: is used to validate the email format.
+
+Include function in PHP:
+
+-> include(): is used to copy the content of a file (html/php/index.php)
+              and includes it in your php file.
+              Sections of our website become reusable.
+              Changes only need to be made in one place.
+
+Cookie in PHP:
+
+-> Information about a user stored in a user's web-browser
+   targeted advertisements, browsing preferences and other non-sensitive data.
+-> setcookie() function is used to store data in cookie & it is stored as an associative array.
+-> cookie often expires after a certain amount of time.
+
+-> Syntax:
+
+setcookie("key", "value", expiration time in seconds using time(), file_path);
+
+-> You can also check the cookies if they are set or not by following the path:
+ . Right click on web browser
+ . Click Inspect
+ . Under the navbar of elements, console, click application
+ . Under the storage section, click cookies then it will display all the information about cookies
+
+OR by simple pressing F12 -> Applications.
+
+-> To expire the cookie, just set the time() - 0 to delete the cookie.
+-> Use $_COOKIE, super global value as $key=>$value in foreach loop to print the cookie.
+
+Sessions in PHP:
+
+-> A session is a Super Global Variable (SGB) used to store information on a user to be used across multiple pages. 
+-> Once a session is created, a user is assigned a session-id for example login credentials.
+-> For Example: You logged into the facebook, you can go on multiple pages by stay logged in.
+
+-> session_start(): is used to start a session.
+-> $_SESSION, a Super Global Variable, used to store credentials.
+
+-> header("Location: (filename)"): used to jump from one file to another.
+-> session_destroy(): is used to end the session when the user log out.
+
+Server in PHP:
+
+-> A server is a Super Global Variable that contains headers, paths and script locations. 
+-> It's an associative array created by the web server. 
+-> It contains everything you need to know about the web server environment.
+-> To access the server, type $_SERVER[] then you can access the key=>value pair.
+
+-> PHP_SELF is the location of this page.
+-> REQUEST_METHOD is either GET or POST.
+
+-> $_SERVER["PHP_SELF"] automatically change the file name when used within <form action> tag. We don't have to change the filename if we rename our file.
+   Must enclose it with htmlspecialchars to avoid any cross site scripts.
+			
+-> By default, REQUEST_METHOD is GET. After submission, it will be post if we have assigned POST method in the form tag.
+
+Hashing in PHP:
+
+-> A process of transforming sensitive data such as passwords into letters, numbers and/or symbols via a mathematical process.
+   It is kinda similar to encryption but it's technically different. Basically, we can hide the original data from 3rd parties such as Hackers.
+
+-> To create a Hash, Use password_hash() function.
+-> Syntax: password_hash($string, PASSWORD_DEFAULT)
+   
+ . The 1st parameter can be a string variable.
+ . The 2nd parameter is Hashing Algorithm. It is technically a constant that specifies the algorithm. PASSWORD_DEFAULT use the bcrypt algorithm.
+
+-> password_verify(): used to match the given hash with the plain text password. It returns either true or false based on the answer.
+
+Connect to MySQL Server in PHP:
+
+-> There are two ways to connect with database:
+ . MySQLi Extension
+ . PDO (PHP Data Objects)
+
+-> As beginner, we should proceed with MySQLi because PDO requires OOP that we didn't covered yet.
+
+-> Type: localhost/phpmyadmin or simply click on admin after opening XAMPP control panel.
+
+-> mysqli_connect(): used to connect the database. It has four parameters:
+ . $db_server 
+ . $db_user 
+ . $db_password 
+ . $db_name  
+
+-> Use include("Connection Filename.php") to connect with server on another file.
+
+
+Creating table using PHPmyadmin:
+
+-> Go to http://localhost/phpmyadmin/
+-> Click on databases.
+-> Create database if you haven't already then select it.
+-> Write the table name & assign number of columns.
+-> Click the create button.
+-> In the name, we set the name of each column.
+-> Set the IDs to primary index or choose according to your need.
+-> A_I used for Auto Increment.
+-> VARCHAR type used for storing characters or string.
+-> INT type used for numbers.
+-> We are using CHAR type for storing password because we will apply hashing algorithm to secure it with the length of 255.
+-> DATETIME type used for storing date & time.
+-> For Default, we used CURRENT_TIMESTAMP.
+-> For viewing the SQL query, click on Preview SQL Button to see the SQL quries that we are applying.
+-> Click on Save to create the table.
+-> Click on browse to see the table. It will display column name but we didn't have any row inside it by default.
+-> For inserting manually, click on Insert.
+-> After inserting data, click on Go.
+-> Now, go to browse. It will display a row that we have inserted right now.
+-> To delete a row, click on delete button then press OK to delete that row.
+
+Insert Data into MySQL table using PHP:
+
+-> Make two files, one for database connection & 2nd one for Index.
+-> After writing the connection code in connection file, Use the include() in Index file to connect the database.
+-> mysqli_close($connection): used to close the connection of database.
+-> mysqli_query($connection, $query): used to submit the query written inside the $query variable.
+
+Retrieve Data from MySQL Database using PHP:
+
+-> SELECT query is used to retrieve data such as:
+ . SELECT * from users WHERE user = 'Zeeshan'
+
+-> mysqli_num_rows($result): used to check the results given by query that has stored in the variable $result.
+-> mysqli_fetch_assoc($result): used to access the next upcoming row of the database.
+-> Use while loop with condition mysqli_fetch_assoc($result) to display all the data from the table.
+-> Summary:
+ . Write an SQL query.
+ . Use the query function. This returns an object.
+ . Get each row from the object using mysqli_fetch_assoc().
+ . For more than one row, use while loop.
+
