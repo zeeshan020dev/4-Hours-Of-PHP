@@ -1638,33 +1638,6 @@ mysqli_close()
 
 ---
 
-# Repository Purpose
-
-This repository can be used as:
-
-- A beginner PHP learning resource
-- A quick PHP revision guide
-- A reference while practicing PHP
-- A foundation before moving into more advanced PHP concepts
-- A companion repository for hands-on PHP exercises
-
----
-
-# Recommended Learning Approach
-
-For each topic:
-
-1. Read the concept.
-2. Understand the syntax.
-3. Write the code yourself.
-4. Run it locally.
-5. Experiment with different values.
-6. Break the code intentionally.
-7. Debug the errors.
-8. Move to the next topic only after understanding the previous one.
-
----
-
 # Technologies Covered
 
 ```text
